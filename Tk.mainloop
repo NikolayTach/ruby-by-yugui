@@ -1,0 +1,13 @@
+#!/home/nikolay/Ruby
+require 'tk'
+TkLabel.new {
+text	"Text"
+bg	"red"
+pack
+}
+TkButton.new {
+text	"Close"
+command { exit }
+pack
+}
+Tk.mainloop
