@@ -2,10 +2,17 @@
 Ruby 1.5 gems
 internationalization, i18n.
 internationalization,m17n.
+First, make sure you have the i18n gem installed. You can add it to your Gemfile or install it manually using:
 
 ```
 gem install i18n
 ```
+1. We set up the i18n gem to handle translations.
+3. We define translations for acid names in English and Spanish.
+4. We create an array of acid symbols.
+5. We define a function translate_acids that maps the acid symbols to their translations based on the specified locale.
+6. We print the translated acid names in both English and Spanish.
+7. You can extend this example by adding more languages and translations as needed.
 
 ```
 require 'i18n'
